@@ -49,7 +49,7 @@ spring:
             scope:
               - name
               - email
-            client-name: Naver # 클라이언트 네임은 구글 페이스북도 대문자로 시작하더라.
+            client-name: Naver
             authorization-grant-type: authorization_code
             redirect-uri: http://localhost:8080/login/oauth2/code/naver
 
