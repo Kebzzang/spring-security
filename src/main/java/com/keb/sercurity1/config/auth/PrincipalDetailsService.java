@@ -11,6 +11,7 @@ import org.springframework.stereotype.Service;
 //로그인 요청이 오면 자동으로 UserDetailsService 타입으로 IoC되어 있는 loadUserByUsername함수가 실행
 @Service
 public class PrincipalDetailsService implements UserDetailsService {
+    //함수 종료시 @Authentication 어노테이션이 만들어진다.
     @Autowired
     private UserRepository userRepository;
     @Override

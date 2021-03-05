@@ -34,7 +34,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .formLogin()
                 .loginPage("/loginForm")
                 .loginProcessingUrl("/login")
-                .defaultSuccessUrl("/")
+                .defaultSuccessUrl("/") //로그인 성공 시 어디로 연결되는지
                 .and()
                 .oauth2Login()
                 .loginPage("/loginForm")
