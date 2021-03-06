@@ -36,8 +36,8 @@ spring:
       client:
         registration:
           google: # /oauth2/authorization/google 이 주소로 동작함
-            client-id: 588000139755-i5inq6jei66hsugf2ilef0bqu4ev7rns.apps.googleusercontent.com
-            client-secret: 0Vd_EVhplFR1kNfyU7fbZwWU
+            client-id: {clientId}
+            client-secret: {clientSecret}
             scope: #가져올 유저 정보 스코프
               - email
               - profile
